@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,700;1,700&display=swap');
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.pro-sidebar.collapsed h6 > div > span, .pro-sidebar.collapsed ul ul { display:  none;}
+.tac{text-align:center}
+.zeta{position:relative}
+.zeta:after{
+  content: attr(pie-text);
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  text-align:center;
+/*padding-left: 45px;*/
+font-weight:bold;
+font-size: 18px;; display:none;
+/*background:#333;*/
+}
+
+.zeta.mlm:after{ margin-left:-45px; display:none; }
+.mlm{ margin-left:-7rem }
+.zeta:before{
+    content: attr(big-text);
+  position:absolute;
+  top: 15px;
+  width: 100%;
+  text-align:center;
+font-weight:bold;
+font-size: 22px;; display:none;
+}
+
+.w-full{ width:100% }
+.upper{text-transform: uppercase;}
+.bg-graph{background:#1f2a40}
+.FixSVG{position:relative}
+.FixSVG h6{position:absolute; bottom:10px}
+.FixSVG svg{transform: scale(0.38);top:-12px; position:relative;}
+/*
+#0390f4
+.login-box a:hover {
+    background: #0390f4;
+
+    box-shadow: 0 0 5px #0390f4, 0 0 25px #0390f4, 0 0 50px #0390f4, 0 0 100px #0390f4;
+*/
+
+
